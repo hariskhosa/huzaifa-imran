@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Gold & Silver | Timeless JEWELLERY</title>
+    <!-- Google Fonts for Premium Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <h1>Royal<span class="highlight">G&S</span></h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#products">Collection</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#"><i class="fas fa-shopping-bag"></i><span class="badge">0</span></a>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content fade-up">
+            <h2>Pure Gold & Silver</h2>
+            <h1>Timeless Beauty & Elegance</h1>
+            <p>Discover our exclusive collection of certified precious jewellery.</p>
+            <div class="hero-btns">
+                <a href="#categories" class="btn btn-primary">Shop Now</a>
+                <a href="#contact" class="btn btn-secondary">Contact Us</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Categories Section -->
+    <section id="categories" class="categories section-padding">
+        <div class="container">
+            <div class="section-title fade-up">
+                <h2>Our Categories</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="category-grid">
+                <!-- Gold -->
+                <div class="category-card fade-up">
+                    <div class="cat-icon"><i class="fas fa-gem"></i></div>
+                    <h3>Gold Jewellery</h3>
+                    <p>Rings, Necklaces, Bangles, Earrings</p>
+                    <a href="#products" class="learn-more">Explore <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <!-- Silver -->
+                <div class="category-card fade-up">
+                    <div class="cat-icon"><i class="fas fa-ring"></i></div>
+                    <h3>Silver Jewellery</h3>
+                    <p>Rings, Chains, Bracelets</p>
+                    <a href="#products" class="learn-more">Explore <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <!-- Diamonds (Bonus) -->
+                <div class="category-card fade-up">
+                    <div class="cat-icon"><i class="far fa-gem"></i></div>
+                    <h3>Diamond Collection</h3>
+                    <p>Solitaires, Engagement Rings</p>
+                    <a href="#products" class="learn-more">Explore <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Showcase -->
+    <section id="products" class="products section-padding bg-light">
+        <div class="container">
+            <div class="section-title fade-up">
+                <h2>Featured Collection</h2>
+                <div class="underline"></div>
+            </div>
+            
+            <!-- Filters -->
+            <ul class="product-filters fade-up">
+                <li class="active" data-filter="all">All</li>
+                <li data-filter="gold">Gold</li>
+                <li data-filter="silver">Silver</li>
+            </ul>
+
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card fade-up" data-category="gold">
+                    <div class="product-image">
+                        <div class="placeholder-img gold-gradient"></div>
+                        <div class="overlay">
+                            <button class="add-to-cart-btn"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Royal Gold Necklace</h3>
+                        <p class="purity">22K Gold | 15g</p>
+                        <p class="price">$1,200</p>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card fade-up" data-category="silver">
+                    <div class="product-image">
+                        <div class="placeholder-img silver-gradient"></div>
+                        <div class="overlay">
+                            <button class="add-to-cart-btn"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Sterling Silver Bracelet</h3>
+                        <p class="purity">925 Silver | 20g</p>
+                        <p class="price">$85</p>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card fade-up" data-category="gold">
+                    <div class="product-image">
+                        <div class="placeholder-img gold-gradient"></div>
+                        <div class="overlay">
+                            <button class="add-to-cart-btn"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Antique Gold Bangle</h3>
+                        <p class="purity">24K Gold | 25g</p>
+                        <p class="price">$2,100</p>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card fade-up" data-category="silver">
+                    <div class="product-image">
+                        <div class="placeholder-img silver-gradient"></div>
+                        <div class="overlay">
+                            <button class="add-to-cart-btn"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Silver Chain</h3>
+                        <p class="purity">925 Silver | 12g</p>
+                        <p class="price">$45</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container about-container">
+            <div class="about-image fade-up">
+                <div class="placeholder-img gold-silver-blend"></div>
+            </div>
+            <div class="about-text fade-up">
+                <h2>Our Story of Purity</h2>
+                <div class="underline-left"></div>
+                <p>At <strong>Royal Gold & Silver</strong>, we believe that jewellery is more than just an accessory—it's a legacy. For decades, we have been crafting exquisite pieces that blend traditional craftsmanship with modern design.</p>
+                <p>We guarantee 100% purity in our gold and silver collections, ensuring that every piece you buy is a timeless investment.</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>25+</h3>
+                        <p>Years</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>5k+</h3>
+                        <p>Customers</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>100%</h3>
+                        <p>Certified</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="choose-us" class="choose-us section-padding bg-dark">
+        <div class="container">
+            <div class="section-title section-title-light fade-up">
+                <h2>Why Choose Royal?</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="features-grid">
+                <div class="feature-box fade-up">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Certified Purity</h3>
+                    <p>Every piece comes with a certificate of authenticity.</p>
+                </div>
+                <div class="feature-box fade-up">
+                    <i class="fas fa-tags"></i>
+                    <h3>Best Prices</h3>
+                    <p>Transparent pricing with no hidden charges.</p>
+                </div>
+                <div class="feature-box fade-up">
+                    <i class="fas fa-hands-helping"></i>
+                    <h3>Trust & Legacy</h3>
+                    <p>Serving thousands of happy customers for years.</p>
+                </div>
+                <div class="feature-box fade-up">
+                    <i class="fas fa-hammer"></i>
+                    <h3>Expert Craftsmanship</h3>
+                    <p>Handcrafted by the finest artisans.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <div class="section-title fade-up">
+                <h2>Get In Touch</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info fade-up">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h4>Visit Us</h4>
+                        <p>123 Jewellery Lane, Gold Market, City</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <h4>Call Us</h4>
+                        <p>+123 456 7890</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <h4>Email Us</h4>
+                        <p>info@royalgoldsilver.com</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1422937950147!2d-73.98731968482413!3d40.75889497932681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus" width="100%" height="250" style="border:0; margin-top:20px; border-radius: 8px;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <form class="contact-form fade-up">
+                    <h3>Send a Message</h3>
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Royal Gold & Silver. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
